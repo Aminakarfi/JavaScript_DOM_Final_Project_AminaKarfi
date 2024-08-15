@@ -12206,4 +12206,26 @@ button {
   font-size: 1em;
 }
 
+.chef-div2-div1 {
+  overflow: hidden;
+  transition: 0.5s;
+}
+.chef-div2-div1:hover {
+  transform: scale(1.1);
+}
+
+.chef1-div2-div1-img {
+  position: relative;
+}
+.chef1-div2-div1-img .shape img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 99;
+}
+.chef1-div2-div1-img .shape:hover {
+  transform: scale(1.08);
+  transition: 0.3s;
+}
+
 /*# sourceMappingURL=app.css.map */
