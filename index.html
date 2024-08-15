@@ -1,19 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
+
 <body>
-    <div>hellow world</div>
+
+
+    <header id="header">
 
 
 
+            <a href="index.html" class="">
+
+                <h1 class="left-d ">Yummy 
+                <span class="fi">.</span>
+            </h1>
+            </a>
+
+
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="#hero" class="active">Home<br></a></li>
+                    <li><a href="#about" class="">About</a></li>
+                    <li><a href="#menu" class="">Menu</a></li>
+                    <li><a href="#events" class="">Events</a></li>
+                    <li><a href="#chefs" class="">Chefs</a></li>
+                    <li><a href="#gallery" class="">Gallery</a></li>
+                    <li class="dropdown"><a href="#"><span>Dropdown</span> </a>
+
+                    </li>
+                    <li><a href="#contact" class="">Contact</a></li>
+                </ul>
+
+            </nav>
+
+
+            <button class="b1" id="ModalStyle">Book A table</button>
+
+            <!-- Modal Structure -->
+            <div id="myModal" class="book">
+                <div class="Content">
+                    <span class="close">&times;</span>
+                    <h2>Login</h2>
+                    <form id="loginForm">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required><br><br>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required><br><br>
+                        <button type="submit">Login</button>
+                    </form>
+                </div>
+            </div>
+
+         
+    </header>
 
 
 
     <script src="./public/js/app.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
+
 </html>
