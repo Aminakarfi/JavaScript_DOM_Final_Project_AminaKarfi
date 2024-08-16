@@ -1,3 +1,7 @@
+
+*
+    margin: 0
+    padding: 0
 .section5
     display: flex
     flex-direction: column
@@ -12,7 +16,6 @@
     .btn
         display: flex
         justify-content: center
-        gap: 2vw
         button
             border: none
             background: transparent
@@ -30,13 +33,22 @@
                 width: 100%
 
     .smalldiv
-        h2
-            color: rgb(213, 53, 53)
-    .topDiv
         display: flex
-        justify-content: space-evenly
-        .content
+        flex-direction: column
+        h2
             text-align: center
+            color: rgb(213, 53, 53)
+    #menu
+        display: flex
+        flex-direction: column
+
+        .topDiv
+
+            display: flex
+            gap: 5vw
+            .content
+                display: flex
+                flex-direction: column
 
     .animated
         animation: fadeInOut 0.5s

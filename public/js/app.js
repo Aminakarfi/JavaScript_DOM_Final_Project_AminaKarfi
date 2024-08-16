@@ -16,7 +16,7 @@ window.onclick = function (event) {
 
 
 
-// ! carousel
+// ! Button
 let starters = document.querySelector("#starters")
 let breakfast = document.querySelector("#breakfast")
 let lunch = document.querySelector("#lunch")

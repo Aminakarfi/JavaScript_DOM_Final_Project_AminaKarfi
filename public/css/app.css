@@ -12123,7 +12123,7 @@ button {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #f9f9f9;
+  background-color: rgb(242, 242, 242);
 }
 
 .container {
@@ -12131,6 +12131,7 @@ button {
   justify-content: space-between;
   width: 100%;
   max-width: 1200px;
+  gap: 20px;
 }
 
 .why-yummy {
@@ -12167,13 +12168,29 @@ button {
 
 .inf {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  gap: 20px;
 }
 
 .info {
   display: flex;
+  text-align: center;
+  justify-content: center;
   flex-direction: column;
+  border-radius: 1px;
+  background-color: white;
+  height: 40vh;
+}
+.info i {
+  font-size: 30px;
+  border-radius: 50%;
+  border: 20px solid rgb(247, 214, 217);
+  color: red;
+  background-color: rgb(247, 214, 217);
+}
+.info i:hover {
+  border: 20px solid rgb(222, 17, 34);
+  background-color: rgb(222, 17, 34);
+  color: white;
 }
 
 .stats {
@@ -12206,12 +12223,18 @@ button {
   font-size: 1em;
 }
 
-.chef-div2-div1 {
+.chef1-div2-div1 {
   overflow: hidden;
   transition: 0.5s;
+  display: flex;
 }
-.chef-div2-div1:hover {
+.chef1-div2-div1:hover {
   transform: scale(1.1);
+}
+
+.hell {
+  display: flex;
+  flex-direction: column;
 }
 
 .chef1-div2-div1-img {
@@ -12226,6 +12249,11 @@ button {
 .chef1-div2-div1-img .shape:hover {
   transform: scale(1.08);
   transition: 0.3s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .section5 {
@@ -12246,7 +12274,6 @@ button {
 .section5 .btn {
   display: flex;
   justify-content: center;
-  gap: 2vw;
 }
 .section5 .btn button {
   border: none;
@@ -12266,15 +12293,25 @@ button {
 .section5 .btn button:hover::after {
   width: 100%;
 }
+.section5 .smalldiv {
+  display: flex;
+  flex-direction: column;
+}
 .section5 .smalldiv h2, .section5 .smalldiv .h2 {
+  text-align: center;
   color: rgb(213, 53, 53);
 }
-.section5 .topDiv {
+.section5 #menu {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
 }
-.section5 .topDiv .content {
-  text-align: center;
+.section5 #menu .topDiv {
+  display: flex;
+  gap: 5vw;
+}
+.section5 #menu .topDiv .content {
+  display: flex;
+  flex-direction: column;
 }
 .section5 .animated {
   animation: fadeInOut 0.5s;

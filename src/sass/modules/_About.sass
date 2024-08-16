@@ -55,13 +55,14 @@
     display: flex
     justify-content: center
     flex-wrap: wrap
-    background-color: #f9f9f9
+    background-color: rgb(242, 242, 242)
 
 .container
     display: flex
     justify-content: space-between
     width: 100%
     max-width: 1200px
+    gap: 20px
 
 .why-yummy
     display: flex
@@ -96,12 +97,26 @@
 
 .inf
     display: flex
-    flex-wrap: wrap
-    justify-content: space-around
+    gap: 20px
 
 .info
     display: flex
+    text-align: center
+    justify-content: center
     flex-direction: column
+    border-radius: 1px
+    background-color: white
+    height: 40vh
+    i
+        font-size: 30px
+        border-radius: 50%
+        border: 20px solid rgb(247, 214, 217)
+        color: red
+        background-color: rgb(247, 214, 217)
+        &:hover
+            border: 20px solid rgb(222, 17, 34) 
+            background-color: rgb(222, 17, 34) 
+            color: white
 
 .stats
     background-image: url(../images/stats-bg.jpg)
