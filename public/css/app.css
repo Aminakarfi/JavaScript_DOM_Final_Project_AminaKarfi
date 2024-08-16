@@ -12472,6 +12472,16 @@ footer .copy-t p span {
   color: #ce1212;
 }
 
+.toplefti {
+  position: fixed;
+  padding: 1.5vh 1vw;
+  bottom: 20px;
+  right: 20px;
+  z-index: 20;
+  border-radius: 50%;
+  background-color: #c32525;
+}
+
 .section7 {
   display: flex;
   flex-direction: column;
