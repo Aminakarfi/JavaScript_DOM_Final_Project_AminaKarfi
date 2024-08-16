@@ -12328,29 +12328,38 @@ button {
 .testimonials {
   background-color: #f2f2f2;
 }
-.testimonials .slide {
+.testimonials .slideto {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 250px;
 }
-.testimonials .slide .content h3, .testimonials .slide .content .h3 {
+.testimonials .slideto .contentnum {
+  display: flex;
+  flex-direction: column;
+}
+.testimonials .slideto .contentnum h3, .testimonials .slideto .contentnum .h3 {
   font-size: 18px;
   font-weight: 500;
 }
-.testimonials .slide .content h4, .testimonials .slide .content .h4 {
+.testimonials .slideto .contentnum h4, .testimonials .slideto .contentnum .h4 {
   font-size: 14px;
 }
-.testimonials .slide .content .stars i {
+.testimonials .slideto .contentnum .thestars i {
   color: #ffc107;
 }
-.testimonials .slide .content i {
+.testimonials .slideto .contentnum i {
   color: #e08282;
 }
-.testimonials .slide .content .icon-left {
+.testimonials .slideto .contentnum .icon-left {
   left: -5px;
 }
-.testimonials .profil img {
+
+.section-title {
+  display: flex;
+  flex-direction: column;
+}
+.section-title .pro-f img {
   border-radius: 50%;
   width: 150px;
   margin: auto;
@@ -12361,20 +12370,20 @@ button {
   overflow: hidden;
 }
 
-.carousel {
+.carouselmi {
   display: flex;
   transition: transform 0.5s ease;
 }
 
-.slide {
+.slideto {
   min-width: 100%;
 }
-.slide img {
+.slideto img {
   width: 100%;
   height: 100%;
 }
 
-.next, .previous {
+.nexto, .prev {
   padding: 1vh 2vw;
   border-radius: 20px;
   position: absolute;
@@ -12382,11 +12391,11 @@ button {
   transform: translateY(-50%);
 }
 
-.next {
+.nexto {
   right: 0px;
 }
 
-.previous {
+.prev {
   left: 0;
 }
 
