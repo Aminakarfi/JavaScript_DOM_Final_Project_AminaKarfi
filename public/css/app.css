@@ -11872,6 +11872,24 @@ a {
   text-decoration: none;
 }
 
+.navmenu {
+  background: none;
+  border: none;
+  position: relative;
+}
+.navmenu::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: rgb(213, 53, 53);
+  bottom: 0;
+  left: 0;
+  transition: 0.3s ease;
+}
+.navmenu::after:hover::after {
+  width: 100%;
+}
 .navmenu ul {
   display: flex;
   gap: 40px;
@@ -12546,6 +12564,26 @@ footer .copy-t p span {
 .sec1 {
   display: flex;
   flex-direction: column;
+}
+
+.infoDiv {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.iconDiv {
+  border-radius: 50%;
+  background-color: red;
+  border: 6px solid red;
+}
+
+.formppart {
+  width: 100%;
+}
+
+.ff {
+  margin-right: 50px;
 }
 
 /*# sourceMappingURL=app.css.map */
